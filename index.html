@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="stylesheet" href="stylevalidation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <form   id="creat_account_form">
+       <div class="tittle" >
+        <h2>creat account</h2>
+       </div>
+       <!-- username -->
+       <div class="input_group">
+         <label for="username">Name </label>
+         <input type="text" id="username" placeholder="Enter name" name="username">
+         <i class="fa-solid fa-circle-exclamation"></i>
+         
+         <i class="fa-solid fa-circle-check"></i> 
+         <h4>Error message</h4>
+      </div>
+       <!-- email -->
+       <div class="input_group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Ener Email" name="email">
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <i class="fa-solid fa-circle-check"></i> 
+        <h4>Error message</h4>
+       </div>
+       <!-- password --> 
+       <div class="input_group ">
+        <label for="password">password</label>
+        <input type="password" id="password" placeholder="password" name="password">
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <i class="fa-solid fa-circle-check"></i> 
+        <h4>Error message</h4>
+       </div>
+       <!-- password2 -->
+      
+     <div class="input_group">
+        <label for="confrim_password">confrim password</label>
+        <input type="confrim_password" id="confrim_password" placeholder=" confrim password" name="confrim_password">
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <i class="fa-solid fa-circle-check"></i> 
+        <h4>Error message</h>
+     </div>
+      <!-- submit -->
+      <button type="submit" class="btn">submit</button>
+
+
+    </form>
+    
+
+
+    <script src="santos.js"></script>
+</body>
+</html>
+
+
+ 
+
+<!-- <i class="fa-solid fa-circle-exclamation"></i> -->
+<!-- <i class="fa-solid fa-circle-check"></i> -->
